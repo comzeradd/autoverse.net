@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "chimeresspace",
+    "name": "Chimeres.Space",
+    "year": "2017",
+    "description": "Chimeres.space is an art and event space on the first floor of an independent building, with a terrace between blocks of flats. It was created to accommodate ideas and projects, but also host screenings, performances, installations, exhibitions, theatrical plays, workshops, lessons, presentations, dj-sets & acoustic lives, meetings.",
+    "tech": [
+      "Javascript",
+      "VueJS",
+      "Python",
+      "Django",
+      "DjangoRestFramework"
+    ]
+  },
+  {
+    "slug": "athensreport",
+    "name": "Athens Report",
+    "year": "2017",
+    "description": "Athens Report is an interactive documentary and installation project, using digital media and the Internet to collect and archive interviews, video, photographs and graffiti of life and protest in Athens during the Greek debt crisis.",
+    "tech": [
+      "Python",
+      "Django",
+      "Javascript",
+      "PopcornJS"
+    ]
+  },
+  {
+    "slug": "notiosradio",
+    "name": "Notios Radio",
+    "year": "2016",
+    "description": "more blah blah",
+    "tech": [
+      "PHP",
+      "Wordpress",
+      "Linux",
+      "Icecast",
+      "Airtime",
+      "Mixxx"
+    ]
+  },
+  {
+    "slug": "memoria",
+    "name": "Virtual Museum of Brazilians Abroad",
+    "year": "2016",
+    "description": "The Virtual Museum of Brazilians Abroad is a Point of Memory Abroad awarded by the Brazilian Institute of Museums and Ministry of Culture of Brazil. It consists of an interactive platform that aims to bring together audiovisual testimonies for registering and maintaining the memory of Brazilians living abroad. Individuals are invited to become protagonists, participating in the creation of the collection with the filming of his own testimony, thus acting as authors in the constitution of its own museum space in cyberspace.",
+    "tech": [
+      "PHP",
+      "Wordpress"
+    ]
+  },
+  {
+    "slug": "panopticon",
+    "name": "Panopticon",
+    "year": "2015",
+    "description": "",
+    "tech": [
+      "Javascript",
+      "AngularJS",
+      "Bootstrap",
+      "Mediawiki"
+    ]
+  },
+  {
+    "slug": "mapwire",
+    "name": "Mapwire",
+    "year": "2013",
+    "description": "",
+    "tech": [
+      "Javascript",
+      "LeafletJS",
+      "OpenStreetMap"
+    ]
+  },
+  {
+    "slug": "ccradio",
+    "name": "CC Radio",
+    "year": "2012",
+    "description": "",
+    "tech": [
+      "Python",
+      "Django",
+      "Icecast"
+    ]
+  },
+  {
+    "slug": "dln",
+    "name": "Digital Liberation Network",
+    "year": "2010",
+    "description": "",
+    "tech": [
+      "PHP",
+      "Wordpress"
+    ]
+  },
+  {
+    "slug": "eel",
+    "name": "Hellenic Logistics Association",
+    "year": "2008",
+    "description": "",
+    "tech": [
+      "PHP"
+    ]
+  },
+  {
+    "slug": "synch",
+    "name": "Synch Festival",
+    "year": "2006",
+    "description": "",
+    "tech": [
+      "PHP"
+    ]
+  },
+  {
+    "slug": "vibrantmusic",
+    "name": "Vibrant Music",
+    "year": "2005",
+    "description": "",
+    "tech": [
+      "PHP"
+    ]
+  }
+]

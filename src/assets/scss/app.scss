@@ -1,0 +1,136 @@
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+@import 'spinner';
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #333;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Clear Sans', sans-serif;
+  display: flex;
+}
+
+a {
+  color: $blue;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: $blue;
+  }
+}
+
+.btn-dark {
+  color: $blue;
+  border: 1px solid $blue;
+
+  &:hover {
+    background-color: $blue;
+    color: black;
+  }
+}
+
+.page {
+  width: 100%;
+  background-color: rgba(29, 29, 29, .7);
+}
+
+.page-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+
+  .page-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+    z-index: 0;
+    opacity: 0.15;
+    filter: alpha(opacity=15);
+  }
+}
+
+.cover-container {
+  max-width: 960px;
+  position: relative;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+
+  @include small-and-up {
+    float: left;
+  }
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.nav-masthead {
+  margin-bottom: 10px;
+
+  @include small-and-up {
+    float: right;
+  }
+
+  .nav-link {
+    padding: 0;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  .router-link-active {
+    @extend .nav-link:hover;
+  }
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .7);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 30px;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.inner {
+  text-align: center;
+}
+
+.inner .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .7);
+}
+
+.social a {
+  display: inline-block;
+  margin-right: 1em;
+}
