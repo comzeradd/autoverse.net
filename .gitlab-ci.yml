@@ -5,6 +5,7 @@ pages:
   - yarn
   - npm run build
   - mv dist public
+  - mv public/static/404.html public/
 
   artifacts:
     paths:
