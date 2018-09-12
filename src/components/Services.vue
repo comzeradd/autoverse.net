@@ -4,7 +4,7 @@
       <i class="fa fa-server" aria-hidden="true"></i>
       <h2>Hosting</h2>
       <p>
-        Website hosting, either for full featured CMS platfomrs
+        Website hosting, either for full featured CMS platforms
         or simple static pages. But also services hosting (eg. email).
         Full FTP or Shell access, depending on the hosting requirements.
       </p>

@@ -10,8 +10,8 @@
 
     <div class="project">
       <div v-for="project in projects" :key="project.slug" class="item">
-        <div class="thumb">
-          <img v-bind:src="'./static/projects/' + project.slug + '.jpg'" v-bind:alt="project.name">
+        <div class="thumb" @click="showImage=true">
+          <img v-bind:src="'./static/projects/' + project.slug + '_thumb.jpg'" v-bind:alt="project.name">
         </div>
         <div class="info">
           <div class="year small">{{ project.year }}</div>
@@ -20,6 +20,10 @@
           <div class="tech">
             <span v-for="tech in project.tech" :key="tech">#{{ tech }} </span>
           </div>
+        </div>
+
+        <div class="image" v-if="showImage">
+
         </div>
       </div>
     </div>
@@ -36,7 +40,8 @@ export default {
   data () {
     return {
       projects: [],
-      loading: true
+      loading: true,
+      showImage: false
     };
   },
 
@@ -80,6 +85,7 @@ export default {
     .thumb {
       overflow: hidden;
       width: 100%;
+      cursor: pointer;
 
       @include medium-and-up {
         width: 200px;
@@ -116,6 +122,18 @@ export default {
       margin-top: 10px;
       color: white;
       text-shadow: 1px 1px 1px black;
+    }
+
+    .image {
+      position: fixed;
+      z-index: 9998;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(58, 58, 58, 0.2);
+      display: table;
+      transition: opacity .5s ease;
     }
   }
 }

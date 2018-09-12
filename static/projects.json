@@ -3,7 +3,7 @@
     "slug": "chimeresspace",
     "name": "Chimeres.Space",
     "year": "2017",
-    "description": "Chimeres.space is an art and event space on the first floor of an independent building, with a terrace between blocks of flats. It was created to accommodate ideas and projects, but also host screenings, performances, installations, exhibitions, theatrical plays, workshops, lessons, presentations, dj-sets & acoustic lives, meetings.",
+    "description": "Chimeres.space is an art and event space, run by the Chimeres collective, on the first floor of an independent building, with a terrace between blocks of flats. It was created to accommodate ideas and projects, but also host screenings, performances, installations, exhibitions, theatrical plays, workshops, lessons, presentations, dj-sets & acoustic lives, meetings.",
     "tech": [
       "Javascript",
       "VueJS",
@@ -16,7 +16,7 @@
     "slug": "athensreport",
     "name": "Athens Report",
     "year": "2017",
-    "description": "Athens Report is an interactive documentary and installation project, using digital media and the Internet to collect and archive interviews, video, photographs and graffiti of life and protest in Athens during the Greek debt crisis.",
+    "description": "Athens Report is an interactive documentary and installation project by artist Anna Lascari, using digital media and the Internet to collect and archive interviews, video, photographs and graffiti of life and protest in Athens during the Greek debt crisis.",
     "tech": [
       "Python",
       "Django",
@@ -28,7 +28,7 @@
     "slug": "notiosradio",
     "name": "Notios Radio",
     "year": "2016",
-    "description": "more blah blah",
+    "description": "Notios Radio is a webradio station and blog of the Notios community. It was created to host the writings, radio shows, but also automated music playlists, of the people attending and participating at Notios radio production classes. Notios is a cultural education organization in southern Athens.",
     "tech": [
       "PHP",
       "Wordpress",
@@ -42,7 +42,7 @@
     "slug": "memoria",
     "name": "Virtual Museum of Brazilians Abroad",
     "year": "2016",
-    "description": "The Virtual Museum of Brazilians Abroad is a Point of Memory Abroad awarded by the Brazilian Institute of Museums and Ministry of Culture of Brazil. It consists of an interactive platform that aims to bring together audiovisual testimonies for registering and maintaining the memory of Brazilians living abroad. Individuals are invited to become protagonists, participating in the creation of the collection with the filming of his own testimony, thus acting as authors in the constitution of its own museum space in cyberspace.",
+    "description": "The Virtual Museum of Brazilians Abroad is a Point of Memory Abroad, designed by artist Celina Lage and awarded by the Brazilian Institute of Museums and Ministry of Culture of Brazil. It consists of an interactive platform that aims to bring together audiovisual testimonies for registering and maintaining the memory of Brazilians living abroad.",
     "tech": [
       "PHP",
       "Wordpress"
@@ -52,7 +52,7 @@
     "slug": "panopticon",
     "name": "Panopticon",
     "year": "2015",
-    "description": "",
+    "description": "Panopticon is single page web application (SPA) that is tailored to be used by hackerspaces, or other community-driven organizations. It assumes a Mediawiki API and/or Atom feeds, as data endpoints, in order to present and visually organize all the community activity.",
     "tech": [
       "Javascript",
       "AngularJS",
@@ -64,7 +64,7 @@
     "slug": "mapwire",
     "name": "Mapwire",
     "year": "2013",
-    "description": "",
+    "description": "Mapwire was web application for searching and sharing map locations, but also user's current location. It used OpenStreetMap as a backend for geographical data and Mapbox for tiles.",
     "tech": [
       "Javascript",
       "LeafletJS",
@@ -75,7 +75,7 @@
     "slug": "ccradio",
     "name": "CC Radio",
     "year": "2012",
-    "description": "",
+    "description": "CC Radio is a webradio web service, hosted by Open Technologies Alliance, that streams only music that is licensed under a free Creative Commons license. The goal of the project is for the service to be used by small businesses and physical space that want to have radio music that doesn't require license fees on some rights collection association.",
     "tech": [
       "Python",
       "Django",
@@ -86,7 +86,7 @@
     "slug": "dln",
     "name": "Digital Liberation Network",
     "year": "2010",
-    "description": "",
+    "description": "Digital Liberation Network was a political network of digital activists with a mission to raise awareness around human rights in the digital world.",
     "tech": [
       "PHP",
       "Wordpress"
@@ -96,7 +96,7 @@
     "slug": "eel",
     "name": "Hellenic Logistics Association",
     "year": "2008",
-    "description": "",
+    "description": "Hellenic Logistics Association is a non-profit organization acting as representative of members interests, who are professionals in the field of logistics in Greece.",
     "tech": [
       "PHP"
     ]
@@ -104,8 +104,8 @@
   {
     "slug": "synch",
     "name": "Synch Festival",
-    "year": "2006",
-    "description": "",
+    "year": "2007",
+    "description": "Synch was an annual festival in the field of innovative music, moving image and new media. It hosted many artists from all over the work and eventually it became part of the Athens Festival.",
     "tech": [
       "PHP"
     ]
@@ -113,10 +113,11 @@
   {
     "slug": "vibrantmusic",
     "name": "Vibrant Music",
-    "year": "2005",
-    "description": "",
+    "year": "2006",
+    "description": "Vibrant Music is a record label. It's purpose is to present unique collaborations and material from established and visionary music artists in the electronic music scene and beyond.",
     "tech": [
-      "PHP"
+      "PHP",
+      "Paypal"
     ]
   }
 ]
