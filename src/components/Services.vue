@@ -45,14 +45,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables';
+@import '../assets/scss/mixins';
+
 .services {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   grid-template-rows: 50% 50%;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   justify-items: center;
   align-items: center;
+
+  @include medium-and-up {
+    grid-template-columns: 50% 50%;
+  }
 
   .item {
     padding: 10px;
