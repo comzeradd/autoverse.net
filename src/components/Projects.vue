@@ -3,10 +3,9 @@
     <div v-if="loading" class="graph-spinner text-center">
       <div class="three-quarters" id="spinner-people">loading...</div>
     </div>
-
-    <p class="lead text-left">
+    <div v-else class="lead text-left">
       This is a snapshot of developed projects developed, either in full, part or voluntarily capacity.
-    </p>
+    </div>
 
     <div class="project">
       <div v-for="project in projects" :key="project.slug" class="item">
