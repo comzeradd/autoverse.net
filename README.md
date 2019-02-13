@@ -1,4 +1,4 @@
-# autoverse.net
+<img src="src/assets/img/autoverse.svg" width="150">
 
 This is the source code of [autoverse.net](https://autoverse.net) website.
 
