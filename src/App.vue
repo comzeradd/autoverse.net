@@ -24,8 +24,11 @@
 
       <footer class="mastfoot d-flex flex-row justify-content-between">
         <div class="social">
+        <!--
+          <a href="https://codeberg.org/comzeradd" target="_blank"><i class="fa fa-git"></i></a>
           <a href="https://gitlab.com/autoverse" target="_blank"><i class="fa fa-gitlab"></i></a>
           <a href="https://github.com/autoverse" target="_blank"><i class="fa fa-github"></i></a>
+        -->
         </div>
         <div class="contact">
           <i class="fa fa-envelope"></i>
