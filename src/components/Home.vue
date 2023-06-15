@@ -1,18 +1,46 @@
 <template>
   <div class="home">
+
     <h1 class="cover-heading">Open Source Engineering</h1>
     <p class="lead mb-5">#Coding #Web #Hosting #Consulting #Cloud #Support</p>
 
-    <form class="form-inline justify-content-center" id="subscribe"
-          action="https://tinyletter.com/autoverse" method="post" target="popupwindow"
-          onsubmit="window.open('https://tinyletter.com/autoverse', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <div class="form-group mr-3">
-        <label for="tlemail" class="sr-only">Stay in touch</label>
-        <input type="email" class="form-control" id="tlemail" name="email" placeholder="me@example.com">
-        <input type="hidden" value="1" name="embed">
+    <div class="services pt-3">
+      <div class="item">
+        <i class="fa fa-server" aria-hidden="true"></i>
+        <h2>Hosting</h2>
+        <p>
+          Website hosting, either for full featured CMS platforms
+          or simple static pages. But also services hosting (eg. email).
+          Full FTP or Shell access, depending on the hosting requirements.
+        </p>
       </div>
-      <button type="submit" class="btn btn-dark">Stay in touch</button>
-    </form>
+      <div class="item">
+        <i class="fa fa-code" aria-hidden="true"></i>
+        <h2>Web Development</h2>
+        <p>
+          Design and development of websites, using the best tech tool for any given case.
+          Using certain platforms (eg. Wordpress) or frameworks (eg. Django, VueJS) for
+          more customized solutions.
+        </p>
+      </div>
+      <div class="item">
+        <i class="fa fa-cloud" aria-hidden="true"></i>
+        <h2>Cloud Services</h2>
+        <p>
+          Setup and manage customized cloud solutions for small businesses and organizations.
+          This can include a variety of Open Source cloud software, like NextCloud, Discourse,
+          Mediawiki and more.
+        </p>
+      </div>
+      <div class="item">
+        <i class="fa fa-linux" aria-hidden="true"></i>
+        <h2>Consulting & Support</h2>
+        <p>
+          Years of Linux experience, can offer consulting, custom solutions or
+          infrastructure systems administration for small businesses and organizations.
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 

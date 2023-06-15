@@ -10,8 +10,7 @@
         <div class="inner">
           <router-link :to="{ name: 'Home'}" class="masthead-brand"><img alt="autoverse" class="logo" src="./assets/img/autoverse.svg"></router-link>
           <nav class="nav nav-masthead justify-content-center">
-            <a href="https://tinyletter.com/autoverse/archive" target="_blank" class="nav-link">updates</a>
-            <router-link :to="{ name: 'Services'}" class="nav-link">services</router-link>
+            <router-link :to="{ name: 'Home'}" class="nav-link">services</router-link>
             <router-link :to="{ name: 'Projects'}" class="nav-link">projects</router-link>
           </nav>
         </div>
@@ -29,6 +28,7 @@
           <a href="https://github.com/autoverse" target="_blank"><i class="fa fa-github"></i></a>
         </div>
         <div class="contact">
+          <i class="fa fa-envelope"></i>
           <img src="./assets/img/email.svg" alt="contact">
         </div>
       </footer>
