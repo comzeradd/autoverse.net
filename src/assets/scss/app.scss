@@ -99,7 +99,8 @@ a {
   }
 
   .router-link-active {
-    @extend .nav-link:hover;
+    @extend .nav-link;
+    color: $blue;
   }
 }
 
