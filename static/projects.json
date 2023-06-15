@@ -3,7 +3,7 @@
     "slug": "chimeresspace",
     "name": "Chimeres.Space",
     "year": "2017",
-    "description": "Chimeres.space is an art and event space, run by the Chimeres collective, on the first floor of an independent building, with a terrace between blocks of flats. It was created to accommodate ideas and projects, but also host screenings, performances, installations, exhibitions, theatrical plays, workshops, lessons, presentations, dj-sets & acoustic lives, meetings.",
+    "description": "Chimeres.space was an art and event space, run by the Chimeres collective, on the first floor of an independent building, with a terrace between blocks of flats. It was created to accommodate ideas and projects, but also host screenings, performances, installations, exhibitions, theatrical plays, workshops, lessons, presentations, dj-sets & acoustic lives, meetings.",
     "tech": [
       "Javascript",
       "VueJS",
@@ -28,7 +28,7 @@
     "slug": "notiosradio",
     "name": "Notios Radio",
     "year": "2016",
-    "description": "Notios Radio is a webradio station and blog of the Notios community. It was created to host the writings, radio shows, but also automated music playlists, of the people attending and participating at Notios radio production classes. Notios is a cultural education organization in southern Athens.",
+    "description": "Notios Radio was a webradio station and blog of the Notios community. It was created to host the writings, radio shows, but also automated music playlists, of the people attending and participating at Notios radio production classes. Notios is a cultural education organization in southern Athens.",
     "tech": [
       "PHP",
       "Wordpress",
@@ -52,7 +52,7 @@
     "slug": "panopticon",
     "name": "Panopticon",
     "year": "2015",
-    "description": "Panopticon is single page web application (SPA) that is tailored to be used by hackerspaces, or other community-driven organizations. It assumes a Mediawiki API and/or Atom feeds, as data endpoints, in order to present and visually organize all the community activity.",
+    "description": "Panopticon is single page web application (SPA) that is tailored to be used by community-driven groups. It assumes a Mediawiki API and/or Atom feeds, as data endpoints, in order to present and visually organize all the community activity.",
     "tech": [
       "Javascript",
       "AngularJS",
@@ -64,7 +64,7 @@
     "slug": "mapwire",
     "name": "Mapwire",
     "year": "2013",
-    "description": "Mapwire was web application for searching and sharing map locations, but also user's current location. It used OpenStreetMap as a backend for geographical data and Mapbox for tiles.",
+    "description": "Mapwire was a web application for searching and sharing map locations, but also user's current location. It used OpenStreetMap as a backend for geographical data and Mapbox for tiles.",
     "tech": [
       "Javascript",
       "LeafletJS",

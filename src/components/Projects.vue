@@ -9,7 +9,7 @@
 
     <div class="project">
       <div v-for="project in projects" :key="project.slug" class="item">
-        <div class="thumb" @click="showImage=true">
+        <div class="thumb">
           <img v-bind:src="'./static/projects/' + project.slug + '_thumb.jpg'" v-bind:alt="project.name">
         </div>
         <div class="info">
@@ -84,7 +84,6 @@ export default {
     .thumb {
       overflow: hidden;
       width: 100%;
-      cursor: pointer;
 
       @include medium-and-up {
         width: 200px;
